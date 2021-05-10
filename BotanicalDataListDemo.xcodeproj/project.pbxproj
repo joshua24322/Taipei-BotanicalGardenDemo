@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,13 @@
 		2D339DED2646A2AF0099C55E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D339DEC2646A2AF0099C55E /* Assets.xcassets */; };
 		2D339DF02646A2AF0099C55E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D339DEE2646A2AF0099C55E /* LaunchScreen.storyboard */; };
 		2D339DFB2646A2AF0099C55E /* BotanicalDataListDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D339DFA2646A2AF0099C55E /* BotanicalDataListDemoTests.swift */; };
+		2D88279F2648528A005D9540 /* BotanicalDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D88279E2648528A005D9540 /* BotanicalDataModel.swift */; };
+		2D8827A1264854CD005D9540 /* AlamofireRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8827A0264854CD005D9540 /* AlamofireRouterProtocol.swift */; };
+		2D8827A426485529005D9540 /* BotanicalDataServiceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8827A326485529005D9540 /* BotanicalDataServiceRouter.swift */; };
+		2D8827A826486162005D9540 /* BotanicalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8827A726486161005D9540 /* BotanicalTableViewCell.swift */; };
+		2D8827AB26486851005D9540 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8827AA26486850005D9540 /* ViewModel.swift */; };
+		2D8827AD26486A4B005D9540 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8827AC26486A4B005D9540 /* CellViewModel.swift */; };
+		2D8827B12649AB22005D9540 /* MockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8827AF2649AB01005D9540 /* MockViewModel.swift */; };
 		545542F2E33E340B5F7D4590 /* Pods_BotanicalDataListDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1785D5EE042812D7820B86 /* Pods_BotanicalDataListDemo.framework */; };
 		A4E9BB73D02476B2C7647C91 /* Pods_BotanicalDataListDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C226901D89B979FB07F288 /* Pods_BotanicalDataListDemoTests.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +48,13 @@
 		2D339DF62646A2AF0099C55E /* BotanicalDataListDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotanicalDataListDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D339DFA2646A2AF0099C55E /* BotanicalDataListDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotanicalDataListDemoTests.swift; sourceTree = "<group>"; };
 		2D339DFC2646A2AF0099C55E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D88279E2648528A005D9540 /* BotanicalDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotanicalDataModel.swift; sourceTree = "<group>"; };
+		2D8827A0264854CD005D9540 /* AlamofireRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlamofireRouterProtocol.swift; path = ../AlamofireRouterProtocol.swift; sourceTree = "<group>"; };
+		2D8827A326485529005D9540 /* BotanicalDataServiceRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotanicalDataServiceRouter.swift; sourceTree = "<group>"; };
+		2D8827A726486161005D9540 /* BotanicalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotanicalTableViewCell.swift; sourceTree = "<group>"; };
+		2D8827AA26486850005D9540 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		2D8827AC26486A4B005D9540 /* CellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
+		2D8827AF2649AB01005D9540 /* MockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockViewModel.swift; sourceTree = "<group>"; };
 		3A632A5CC64BD1027748B897 /* Pods-BotanicalDataListDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BotanicalDataListDemoTests.release.xcconfig"; path = "Target Support Files/Pods-BotanicalDataListDemoTests/Pods-BotanicalDataListDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		48B63DABFAC3746162514B7F /* Pods-BotanicalDataListDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BotanicalDataListDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-BotanicalDataListDemoTests/Pods-BotanicalDataListDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		60C226901D89B979FB07F288 /* Pods_BotanicalDataListDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BotanicalDataListDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,13 +105,14 @@
 		2D339DE22646A2A90099C55E /* BotanicalDataListDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2D339DF12646A2AF0099C55E /* Info.plist */,
 				2D339DE32646A2A90099C55E /* AppDelegate.swift */,
 				2D339DE52646A2A90099C55E /* SceneDelegate.swift */,
-				2D339DE72646A2A90099C55E /* ViewController.swift */,
-				2D339DE92646A2A90099C55E /* Main.storyboard */,
 				2D339DEC2646A2AF0099C55E /* Assets.xcassets */,
 				2D339DEE2646A2AF0099C55E /* LaunchScreen.storyboard */,
-				2D339DF12646A2AF0099C55E /* Info.plist */,
+				2D88279C264851FF005D9540 /* Model */,
+				2D8827A5264860B9005D9540 /* View */,
+				2D8827A926486830005D9540 /* ViewModel */,
 			);
 			path = BotanicalDataListDemo;
 			sourceTree = "<group>";
@@ -107,8 +122,70 @@
 			children = (
 				2D339DFA2646A2AF0099C55E /* BotanicalDataListDemoTests.swift */,
 				2D339DFC2646A2AF0099C55E /* Info.plist */,
+				2D8827AF2649AB01005D9540 /* MockViewModel.swift */,
 			);
 			path = BotanicalDataListDemoTests;
+			sourceTree = "<group>";
+		};
+		2D88279C264851FF005D9540 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D88279D26485244005D9540 /* Entity */,
+				2D8827A2264854FE005D9540 /* Interactor */,
+				2D8827AE2649A21D005D9540 /* Protocol */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D88279D26485244005D9540 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2D88279E2648528A005D9540 /* BotanicalDataModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2D8827A2264854FE005D9540 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2D8827A326485529005D9540 /* BotanicalDataServiceRouter.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2D8827A5264860B9005D9540 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D339DE92646A2A90099C55E /* Main.storyboard */,
+				2D339DE72646A2A90099C55E /* ViewController.swift */,
+				2D8827A6264860ED005D9540 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D8827A6264860ED005D9540 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2D8827A726486161005D9540 /* BotanicalTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2D8827A926486830005D9540 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2D8827AA26486850005D9540 /* ViewModel.swift */,
+				2D8827AC26486A4B005D9540 /* CellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D8827AE2649A21D005D9540 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				2D8827A0264854CD005D9540 /* AlamofireRouterProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		56DA58479572BB0D3CFCB9D0 /* Frameworks */ = {
@@ -128,7 +205,6 @@
 				48B63DABFAC3746162514B7F /* Pods-BotanicalDataListDemoTests.debug.xcconfig */,
 				3A632A5CC64BD1027748B897 /* Pods-BotanicalDataListDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -300,9 +376,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D8827B12649AB22005D9540 /* MockViewModel.swift in Sources */,
 				2D339DE82646A2A90099C55E /* ViewController.swift in Sources */,
 				2D339DE42646A2A90099C55E /* AppDelegate.swift in Sources */,
+				2D8827A426485529005D9540 /* BotanicalDataServiceRouter.swift in Sources */,
 				2D339DE62646A2A90099C55E /* SceneDelegate.swift in Sources */,
+				2D8827AD26486A4B005D9540 /* CellViewModel.swift in Sources */,
+				2D8827A826486162005D9540 /* BotanicalTableViewCell.swift in Sources */,
+				2D88279F2648528A005D9540 /* BotanicalDataModel.swift in Sources */,
+				2D8827AB26486851005D9540 /* ViewModel.swift in Sources */,
+				2D8827A1264854CD005D9540 /* AlamofireRouterProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
