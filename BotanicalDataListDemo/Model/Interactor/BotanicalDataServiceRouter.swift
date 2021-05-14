@@ -63,7 +63,7 @@ enum BotanicalDataServiceRouter: URLRequestConvertible, AlamofireRouterProtocol 
     }
     
     static func query<T: Codable>(_ urlRequest: URLRequestConvertible, completionHandler handler: @escaping((Swift.Result<T, Error>) -> ())) {
-        Alamofire.request(urlRequest)
+        AF.request(urlRequest)
             .validate(statusCode: 200..<305)
             .responseJSON(queue: .global(), options: .allowFragments) { (dataResponse) in
                 switch (dataResponse.result) {
